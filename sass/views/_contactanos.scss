@@ -1,0 +1,75 @@
+/*CONTACTANOS*/
+.contenido-c {
+	width: 100%;
+	max-width: 1200px;
+	overflow: hidden;
+	margin: auto;
+	padding: 60px 0;
+}
+.con-h {
+	height: 701px;
+	background-image: linear-gradient(120deg, rgba(161, 196, 253, 0.507) 0%, rgba(194, 233, 251, 0.5) 100%), url(../img/trabaja.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+.cabe-c {
+	text-align: center;
+	padding: 0;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: var(--image-primary-color);
+}
+.titulo-c {
+	font-size: 180px;
+	font-family: var(--font-secundary);
+	margin-bottom: 15px;
+	min-width: auto;
+}
+.contactoTitulo {
+	font-family: var(--font-third);
+	font-size: 20px;
+}
+.contacto {
+	font-family: var(--font-principal);
+	font-size: 1.2em;
+	color: var(--leters-primary-color);
+}
+.us {
+	font-weight: bolder;
+}
+.ubicado {
+	font-family: var(--font-principal);
+	color: var(--image-secundary-color);
+	font-size: 18px;
+}
+.texto__sucursales {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 11px;
+	font-size: 3.5em;
+	color: var(--image-secundary-color);
+	font-weight: bolder;
+	font-family: var(--font-principal);
+}
+.sucursales {
+	.sucursales__ubicacion {
+		font-family: var(--font-principal);
+		color: var(--leters-primary-color);
+		font-size: 18px;
+		font-style: initial;
+	}
+}
+.ubicacion__mapa {
+	width: 100%;
+	height: 400px;
+}
+.iframe {
+	position: relative;
+	width: 90%;
+}

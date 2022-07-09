@@ -1,0 +1,235 @@
+/*MEDIA*/
+/*Mobile Small*/
+/*Mobile Large*/
+/*Mobile Tablet*/
+@media (max-width: 600px) {
+	.grid {
+		grid-template-columns: 240px auto 300px;
+		grid-template-rows: auto;
+		grid-template: "grid-1" 250px "grid-2" 500px "grid-3" 300px;
+	}
+}
+@media only screen and (min-width: 50px) and (max-width: 100px) {
+	.trabajos-cont {
+		width: 80%;
+	}
+	.titulo-p {
+		font-size: 5%;
+	}
+	.carpa {
+		font-size: 270%;
+	}
+	.redes-final {
+		display: none;
+	}
+	.divi {
+		display: none;
+	}
+	.gritando-senor {
+		padding-right: 0%;
+		padding-bottom: 0%;
+	}
+	.letra-slogan {
+		font-size: 2px;
+	}
+	.tu-negocio {
+		font-size: 2px;
+	}
+	.frase {
+		display: none;
+	}
+}
+@media only screen and (max-width: 110px) {
+	.head {
+		h3.titulo {
+			font-size: 620%;
+		}
+	}
+	.subtitulo {
+		font-size: 350%;
+	}
+	.titulo {
+		font-size: 20%;
+	}
+	.ofrecemos {
+		display: none;
+	}
+	.car {
+		width: 100%;
+	}
+	.agregado {
+		display: none;
+	}
+	.parte-izquierda {
+		display: none;
+	}
+}
+@media only screen and (max-width: 320px) {
+	.img {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
+	}
+	.titulo-p {
+		font-size: 600%;
+	}
+	.contenedor-texto {
+		display: none;
+	}
+	.titulo-s {
+		font-size: 600%;
+	}
+	.titulo-n {
+		font-size: 600%;
+	}
+	.card-body {
+		p.linea {
+			display: none;
+		}
+	}
+	.titulo-c {
+		font-size: 600%;
+	}
+}
+@media only screen and (max-width: 580px) {
+	.presentacion {
+		.presentacion__titulo {
+			font-size: 4rem;
+			padding-bottom: 4px;
+		}
+		.presentacion__text {
+			font-size: 1.8rem;
+			padding-bottom: 5px;
+		}
+	}
+	.nosotros {
+		.nosotros__text {
+			font-size: 1.4rem;
+			letter-spacing: .8px;
+		}
+	}
+	.img {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 1rem;
+	}
+	.card {
+		.card-text {
+			font-size: 1.8rem;
+		}
+	}
+	.f-menu {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.footer-menu {
+		a {
+			font-size: 20px;
+		}
+	}
+	.socials {
+		a {
+			img {
+				width: 20px;
+			}
+		}
+	}
+	.division {
+		margin-top: 5%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.tarjeta-medida {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+		margin-top: 5%;
+	}
+	.gritando-senor {
+		padding-right: 10%;
+		padding-bottom: 15%;
+	}
+	.letra-slogan {
+		font-size: 500%;
+	}
+	.tu-negocio {
+		font-size: 500%;
+	}
+	.frase {
+		font-size: 500%;
+	}
+	.img-pro {
+		width: 85%;
+		margin: auto;
+		display: block;
+	}
+	.parrafo {
+		display: none;
+	}
+}
+@media only screen and (max-width: 768px) {
+	header {
+		display: flex;
+		flex-direction: column;
+	}
+	.nav-item {
+		a {
+			font-size: 3rem;
+		}
+	}
+	.presentacion__titulo {
+		text-align: center;
+	}
+	.card {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contacto__titulo {
+		font-size: 2.5em;
+	}
+	.contacto__p {
+		font-size: 1.6em;
+	}
+	.footer-content {
+		p {
+			display: none;
+		}
+	}
+	.footer-bottom {
+		display: flex;
+		flex-direction: column;
+	}
+	.crece {
+		width: 1500px;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.cambiar-position {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}
+@media only screen and (max-width: 1320px) {
+	.slogan {
+		.hombre-gritando {
+			img {
+				display: none;
+			}
+		}
+		.frase-letra {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			padding-left: 20%;
+			padding-bottom: 15%;
+		}
+	}
+}

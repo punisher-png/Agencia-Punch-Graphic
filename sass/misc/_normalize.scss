@@ -1,0 +1,41 @@
+/*GRID*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 63%;
+}
+body {
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	min-height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	object-position: center;
+	font-family: var(--font-principal);
+	width: 100%;
+	max-width: auto;
+	min-width: auto;
+}
+.grid {
+	display: grid;
+	text-align: center;
+	grid-template-areas: "grid-1" "grid-2" "grid-3";
+}
+.grid-1 {
+	grid-area: grid-1;
+	height: auto;
+	width: auto;
+}
+.grid-2 {
+	grid-area: grid-2;
+	height: auto;
+	width: auto;
+}
+.grid-3 {
+	grid-area: grid-3;
+	height: auto;
+	width: auto;
+}
